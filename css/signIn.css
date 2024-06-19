@@ -1,0 +1,181 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("../images//pexels-photo-730662.jpeg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+#head {
+    width: 100%;
+    height: 3rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 21%;
+    text-align: center;
+    margin: auto;
+    height: 98%;
+}
+
+.search {
+    width: 22%;
+    position: relative;
+}
+
+.search input {
+    width: 88%;
+    height: 1.3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 4px;
+
+}
+
+.search i {
+    position: absolute;
+    right: 31px;
+    top: 4px;
+}
+
+.pages {
+    width: 40%;
+}
+
+.pages ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.pages ul li button {
+    width: 4.5rem;
+    color: black;
+    border-radius: 0.2rem;
+    height: 1.5rem;
+}
+
+.pages ul li .Sign_Up {
+    width: 4.7rem;
+    color: white;
+    border-radius: 0.2rem;
+    height: 1.6rem;
+    background-color: #005e32;
+}
+
+.form_box {
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 30%;
+    margin: auto;
+    background: linear-gradient(45deg, black, transparent);
+    border-radius: 2rem;
+    
+}
+
+.Form_container {
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0rem;
+    color: White;
+}
+
+
+.Form_container input {
+    width: 96%;
+    height: 1.6rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+
+.Form_container label {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+
+.checkbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.checkbox input {
+    width: fit-content !important;
+    height: 1rem !important;
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 2px;
+}
+
+.color_h4 {
+    color: rgb(125, 124, 124);
+}
+
+.Form_container h4 {
+    margin-bottom: 2rem;
+}
+
+.forgotPass {
+    color: rgb(50, 11, 134);
+    text-align: right;
+}
+
+.forgotPass a{
+    color: rgb(50, 11, 134);
+}
+
+.buttons button {
+    width: 4.5rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.login_button a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 0.2rem 0.6rem;
+    width: 5rem;
+    height: 2rem;
+}
+
+.login_button{
+    margin-bottom: 1rem;
+}

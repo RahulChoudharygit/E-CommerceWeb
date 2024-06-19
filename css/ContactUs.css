@@ -1,0 +1,182 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("../images//pexels-photo-730662.jpeg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+#head {
+    width: 100%;
+    height: 3rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 21%;
+    text-align: center;
+    margin: auto;
+    height: 98%;
+}
+
+.search {
+    width: 22%;
+    position: relative;
+}
+
+.search input {
+    width: 88%;
+    height: 1.3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 4px;
+
+}
+
+.search i {
+    position: absolute;
+    right: 31px;
+    top: 4px;
+}
+
+.pages {
+    width: 40%;
+}
+
+.pages ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.pages ul .signIn a{
+    background-color: aquamarine;
+    width: 3rem;
+    color: black;
+    border-radius: 0.2rem;
+    padding: 0.6rem 1rem;
+}
+
+.pages ul .signUp a{
+    background-color: green;
+    width: 3rem;
+    color: black;
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    padding: 0.6rem 1rem;
+}
+
+.form_box {
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 60%;
+    margin: auto;
+    background: linear-gradient(45deg, black, transparent);
+    border-radius: 2rem;
+    
+}
+
+.Form_container {
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0rem;
+    color: White;
+}
+
+.details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.Form_container .details input {
+    width: 90%;
+    height: 1.6rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding-left: 2px;
+}
+
+
+.Form_container label {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.FName {
+    width: 48%;
+} 
+
+.LName {
+    width: 48%;
+} 
+
+
+.mobile {
+    width: 48%;
+} 
+
+
+.Email {
+    width: 48%;
+} 
+
+.descrip {
+    width: 98%;
+    margin-bottom: 1.6rem;
+} 
+
+
+.descrip textarea{
+    width: 95%;
+    max-width: 95%;
+    height: 4rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 0.6rem !important;
+    padding-left: 2px;
+}
+
+
+.buttons button {
+    width: 8rem;
+    font-size: 1.2rem;
+    height: 2.2rem;
+    margin-bottom: 1rem;
+}

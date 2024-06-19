@@ -1,0 +1,97 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("../images//pexels-photo-730662.jpeg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+#head {
+    width: 100%;
+    height: 3rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 21%;
+    text-align: center;
+    margin: auto;
+    height: 98%;
+}
+
+.search {
+    width: 22%;
+    position: relative;
+}
+
+.search input {
+    width: 88%;
+    height: 1.3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 4px;
+
+}
+
+.search i {
+    position: absolute;
+    right: 31px;
+    top: 4px;
+}
+
+.pages {
+    width: 40%;
+}
+
+.pages ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.form_box {
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 60%;
+    margin: auto;
+    background: linear-gradient(45deg, rgb(130, 245, 120), transparent);
+    border-radius: 2rem;
+    
+}
+
+.Form_container {
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0rem;
+    color: White;
+}
